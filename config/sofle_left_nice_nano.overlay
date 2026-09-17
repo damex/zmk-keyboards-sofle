@@ -1,0 +1,10 @@
+&pro_micro_serial {
+	status = "okay";
+};
+
+/ {
+	wired_split {
+		compatible = "zmk,wired-split";
+		device = <&pro_micro_serial>;
+	};
+};
