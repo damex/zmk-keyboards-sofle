@@ -1,0 +1,13 @@
+---
+manifest:
+  defaults:
+      revision: 9ebbeff0a8b69a42f14aec022cdf16c7a107b9e0
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      import: app/west.yml
+  self:
+    path: config
