@@ -1,7 +1,7 @@
 ---
 name: mcuboot
 boards:
-  nice_nano/zmk:
+  nice_nano/nrf52840/zmk:
     append:
       EXTRA_CONF_FILE: nice_nano.conf
       EXTRA_DTC_OVERLAY_FILE: nice_nano.overlay
