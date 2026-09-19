@@ -1,5 +1,9 @@
 if(CONFIG_BOOTLOADER_MCUBOOT)
   execute_process(
+    COMMAND ${PYTHON_EXECUTABLE} -m ensurepip --upgrade --default-pip
+    OUTPUT_QUIET ERROR_QUIET
+  )
+  execute_process(
     COMMAND ${PYTHON_EXECUTABLE} -m pip install --quiet
             -r ${WEST_TOPDIR}/bootloader/mcuboot/scripts/requirements.txt
     RESULT_VARIABLE pip_result
