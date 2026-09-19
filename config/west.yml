@@ -5,9 +5,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: zephyrproject-rtos
+      url-base: https://github.com/zephyrproject-rtos
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: mcuboot
+      remote: zephyrproject-rtos
+      revision: 346f7374ff4467e40b5594658f8ac67a5e9813c9
+      path: bootloader/mcuboot
   self:
     path: config
