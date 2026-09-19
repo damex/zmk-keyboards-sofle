@@ -1,6 +1,7 @@
 ---
 name: zmk-keyboards-sofle
 build:
+  cmake: .
   settings:
     board_root: .
     snippet_root: .
