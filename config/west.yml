@@ -7,6 +7,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
+    - name: damex
+      url-base: https://github.com/damex
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,5 +17,9 @@ manifest:
       remote: zephyrproject-rtos
       revision: 346f7374ff4467e40b5594658f8ac67a5e9813c9
       path: bootloader/mcuboot
+    - name: zmk-feature-split-esb
+      remote: damex
+      revision: v0.6.2
+      import: true
   self:
     path: config
