@@ -5,3 +5,7 @@
         zmk,esb-self = &sofle_left_peripheral;
     };
 };
+
+&left_encoder {
+    compatible = "zmk,stepped-encoder";
+};
