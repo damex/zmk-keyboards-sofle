@@ -1,0 +1,7 @@
+#include "sofle_esb.dtsi"
+
+/ {
+    chosen {
+        zmk,esb-self = &sofle_left_peripheral;
+    };
+};

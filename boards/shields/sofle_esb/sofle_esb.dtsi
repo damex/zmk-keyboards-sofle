@@ -1,0 +1,18 @@
+/ {
+    esb_link {
+        compatible = "zmk,split-esb";
+        base-address = [D2 4B A7 6E];
+        peripherals {
+            sofle_left_peripheral: peripheral_left {
+                pipe = <0>;
+                prefix = <0x6D>;
+                weight = <1>;
+            };
+            sofle_right_peripheral: peripheral_right {
+                pipe = <1>;
+                prefix = <0x93>;
+                weight = <1>;
+            };
+        };
+    };
+};
