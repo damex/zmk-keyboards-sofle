@@ -7,10 +7,3 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif # SHIELD_SOFLE_ESB_DONGLE
-
-if SHIELD_SOFLE_ESB_LEFT || SHIELD_SOFLE_ESB_RIGHT
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default n
-
-endif
