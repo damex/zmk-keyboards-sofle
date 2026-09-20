@@ -6,6 +6,11 @@
     };
 };
 
+&kscan0 {
+    debounce-press-ms = <10>;
+    debounce-release-ms = <12>;
+};
+
 &left_encoder {
     compatible = "zmk,stepped-encoder";
 };
