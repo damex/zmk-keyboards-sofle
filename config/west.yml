@@ -19,7 +19,7 @@ manifest:
       path: bootloader/mcuboot
     - name: zmk-feature-split-esb
       remote: damex
-      revision: v0.6.3
+      revision: v0.6.4
       import: true
     - name: zmk-driver-stepped-encoder
       remote: damex
