@@ -8,7 +8,7 @@
 
 &kscan0 {
     debounce-press-ms = <10>;
-    debounce-release-ms = <12>;
+    debounce-release-ms = <20>;
 };
 
 &right_encoder {
