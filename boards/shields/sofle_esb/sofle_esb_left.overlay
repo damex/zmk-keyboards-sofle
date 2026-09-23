@@ -14,3 +14,7 @@
 &left_encoder {
     compatible = "zmk,stepped-encoder";
 };
+
+&gpio0 {
+    sense-edge-mask = <((1 << 29) | (1 << 31))>;
+};
