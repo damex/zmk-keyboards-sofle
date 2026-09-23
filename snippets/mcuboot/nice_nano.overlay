@@ -26,5 +26,14 @@
 / {
 	chosen {
 		zephyr,code-partition = &slot0_partition;
+		zephyr,boot-mode = &adafruit_boot_retention;
 	};
+
+	magic_mapper {
+		status = "disabled";
+	};
+};
+
+&boot_retention {
+	status = "disabled";
 };
