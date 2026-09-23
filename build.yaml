@@ -6,6 +6,10 @@ include:
     shield: sofle_right
   - board: nice_nano@2//zmk
     shield: settings_reset
+    snippet: mcuboot
+  - board: xiao_ble//zmk
+    shield: settings_reset
+    snippet: mcuboot
   - board: xiao_ble//zmk
     shield: sofle_esb_dongle
     snippet: mcuboot
