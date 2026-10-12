@@ -1,0 +1,14 @@
+#include "sofle_esb_relay.dtsi"
+
+&sofle_left_peripheral {
+    role = "self";
+};
+
+&kscan0 {
+    debounce-press-ms = <10>;
+    debounce-release-ms = <20>;
+};
+
+&left_encoder {
+    compatible = "zmk,stepped-encoder";
+};

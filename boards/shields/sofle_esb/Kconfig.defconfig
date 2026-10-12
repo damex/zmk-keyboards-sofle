@@ -7,3 +7,17 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif # SHIELD_SOFLE_ESB_DONGLE
+
+if SHIELD_SOFLE_ESB_RELAY_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Sofle ESB Relay"
+
+endif # SHIELD_SOFLE_ESB_RELAY_LEFT
+
+if SHIELD_SOFLE_ESB_RELAY_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "Sofle ESB Relay Dongle"
+
+endif # SHIELD_SOFLE_ESB_RELAY_DONGLE
