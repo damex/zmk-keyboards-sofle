@@ -9,3 +9,7 @@ boards:
     append:
       EXTRA_CONF_FILE: xiao_ble.conf
       EXTRA_DTC_OVERLAY_FILE: xiao_ble.overlay
+  nrf52840_mdk_usb_dongle/nrf52840:
+    append:
+      EXTRA_CONF_FILE: nrf52840_mdk_usb_dongle.conf
+      EXTRA_DTC_OVERLAY_FILE: nrf52840_mdk_usb_dongle.overlay
