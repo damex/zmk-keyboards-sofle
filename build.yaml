@@ -16,7 +16,7 @@ include:
   - board: nice_nano@2//zmk
     shield: sofle_esb_dongle
     snippet: mcuboot
-  - board: nrf52840_mdk_usb_dongle
+  - board: nrf52840_mdk_usb_dongle//zmk
     shield: sofle_esb_dongle
     snippet: mcuboot
   - board: nice_nano@2//zmk
@@ -37,6 +37,6 @@ include:
   - board: nice_nano@2//zmk
     shield: sofle_esb_relay_dongle
     snippet: mcuboot
-  - board: nrf52840_mdk_usb_dongle
+  - board: nrf52840_mdk_usb_dongle//zmk
     shield: sofle_esb_relay_dongle
     snippet: mcuboot
